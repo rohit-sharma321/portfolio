@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#home {
+    background: #333;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+}
+
+#home .button {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#about, #projects, #skills, #contact {
+    background: #f4f4f4;
+    margin: 20px 0;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.project {
+    margin: 10px 0;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #007BFF;
+}
+
+.project a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#contact .social-links a {
+    margin: 0 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#contact .social-links a:hover {
+    color: #0056b3;
+}
